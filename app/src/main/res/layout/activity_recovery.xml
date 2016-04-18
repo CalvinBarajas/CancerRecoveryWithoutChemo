@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.eliminategarbage.cancerrecoverywithoutchemo.Recovery">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/return_me_home"
+            style="@style/HomeButton"
+            android:text="Home" />
+
+        <TextView
+            android:id="@+id/resources_header"
+            style="@style/SubHeadings"
+            android:layout_below="@id/return_me_home"
+            android:text="Recovery" />
+
+        <ImageView
+            android:id="@+id/recovery_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resources_header"
+            android:src="@drawable/recovery" />
+
+        <TextView
+            android:id="@+id/recovery_body_text"
+            style="@style/SubLevelBodyText"
+            android:layout_below="@id/recovery_image"
+            android:text="@string/body_recovery" />
+
+        <!-- Horizontal line -->
+        <TextView
+            android:id="@+id/first_horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/recovery_body_text"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/quiz_header"
+            style="@style/SubLevelBodyText"
+            android:layout_below="@id/first_horizontal_line"
+            android:text="How Many People Die Every Day From Cancer In The US..." />
+
+        <!-- Horizontal line -->
+        <TextView
+            android:id="@+id/second_horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/quiz_header"
+            android:background="#000" />
+
+        <RadioGroup
+            android:id="@+id/button_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_horizontal_line"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_five_hundred"
+                style="@style/SubLevelBodyText"
+                android:onClick="onRadioButtonClicked"
+                android:text="Fewer Than 500 People" />
+
+            <RadioButton
+                android:id="@+id/radio_one_thousand"
+                style="@style/SubLevelBodyText"
+                android:onClick="onRadioButtonClicked"
+                android:text="500 To 1000 People" />
+
+            <RadioButton
+                android:id="@+id/radio_fifteen_hundred"
+                style="@style/SubLevelBodyText"
+                android:onClick="onRadioButtonClicked"
+                android:text="Over 1500 People" />
+
+        </RadioGroup>
+
+        <!-- Horizontal line -->
+        <TextView
+            android:id="@+id/third_horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/button_panel"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/recovery_bottom_text"
+            style="@style/SubLevelBodyText"
+            android:layout_below="@id/third_horizontal_line"
+            android:text="" />
+
+        <!-- This is added so that text does not touch bottom of viewport on Nexus 7-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fp_bottom_text"
+            android:layout_marginBottom="20dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

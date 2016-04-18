@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.eliminategarbage.cancerrecoverywithoutchemo.Introduction">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/return_me_home"
+            style="@style/HomeButton"
+            android:text="Home" />
+
+        <TextView
+            android:id="@+id/resources_header"
+            style="@style/SubHeadings"
+            android:layout_below="@id/return_me_home"
+            android:text="Introduction" />
+
+        <TextView
+            style="@style/SubLevelBodyText"
+            android:layout_below="@id/resources_header"
+            android:text="@string/body_introduction" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+

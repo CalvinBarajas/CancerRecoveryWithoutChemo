@@ -1,0 +1,56 @@
+<resources xmlns:xlink="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cancer Recovery Without Chemo</string>
+
+    <!-- Used In Manifest and displayed at the very top of each page -->
+    <string name="m_introduction">Introduction</string>
+    <string name="m_why_me">Why Me?</string>
+    <string name="m_find_provider">Find Provider</string>
+    <string name="m_lifestyle_changes">Lifestyle Changes</string>
+    <string name="m_recovery">Recovery</string>
+
+    <!-- Home Page Intro Text -->
+    <string name="home_page_intro_text">
+        Please learn from these resources and view the following five topics about cancer and chemo-free recovery options.
+    </string>
+
+    <!-- When the user clicks the INTRODUCTION button, this is what they will see in the body of the page-->
+    <string name="body_introduction">
+        It\'s no accident that the US has the most expensive and least effective health-care system in the world.  Extremely large and powerful corporations keep it that way for the benefit of their shareholders --- not you. About 300 of every 100,000 Americans develop cancer each year, which means the U.S. has the seventh highest cancer rate in the world. Our cancer rates are a result of our nutrition, corpulence, fitness level, food and environmental pollution, stress, relationships, etc.  The general public is neither aware nor interested in getting to the bottom of our cancer epidemic because of the sheer complexity of this subject.  Suffice it to say that the FDA, EPA, NIH, etc are not able to help you fight cancer naturally without chemo or determine where your cancer came from.  Most of those organizations are at best poorly funded and at worst corrupted by powerful interests.  99% of doctors only have to take one nutrition course in medical school, and by the time they graduate, they know every pharmaceutical drug very well; however, ask them what hibiscus tea is good for, and you\'ll get a blank stare.
+    </string>
+
+    <!-- When the user clicks the WHY ME button, this is what they will see in the body of the page-->
+    <string name="body_why_me">
+        One of the first questions people who get cancer ask is, \"Why me?\"  Unless you are a Chernobyl survivor, there is normally not one particular thing to point to.  Cancer is the result of a complex process that can often take decades.  Some of the \"low-hanging\" fruit are obvious: eating a lot of junk food, smoking, corpulence, heavy drinking, being sedentary, having a lot of unmanaged stress, your sh*tty outlook on life, having no friends, poor family relationships, working around toxic chemicals, etc.  The \"high-hanging\" fruit however, are having unresolved childhood trauma, eating non-organic, using pharmaceuticals, living and working around EMF, etc.  Don\'t forget that healthy people get cancer also.  You try your best to live a healthy life, and if cancer strikes, you\'ll be better prepared to deal with it.</string>
+
+    <!-- When the user clicks the FIND PROVIDER button, this is what they will see in the body of the page-->
+    <string name="body_find_provider">
+        Since health insurance does not cover non-chemo treatment, how much can you spend out-of-pocket:
+    </string>
+
+    <!-- 1 of 3: Depending on the radio button clicked, this is the text that will display in FIND PROVIDER page under radio button group -->
+    <string name="radio_under_five">
+        If you can only afford to pay under $5,000 for your treatment, you will need to do a combination of conventional and CAM (complimentary and alternative medicine) treatment.  You will need to work with your primary provider to \"augment\" your treatment.  Most conventional doctors will not work with you if you are interested in augmenting your conventional treatment with CAM treatments (raw vegan, juicing organic, non-pharma supplements, meditation, etc.).  First start by reading the  ChrisBeatCancer.com blog.  You will get ideas for finding a provider from there.
+    </string>
+
+    <!-- 2 of 3: Depending on the radio button clicked, this is the text that will display in FIND PROVIDER page under radio button group -->
+    <string name="radio_five_to_ten">
+        If you can afford to pay between $5,000 and $10,000 for your treatment, you are in pretty good shape.  With this budget you can attend a two-week in-patient immersion treatment facility in Arizona and/or Mexico (please note that non-chemo cancer treatment in the US is considered illegal and doctors practicing this form of therapy and treatment are subject to disciplinary action at best and at worst imprisonment.  One good place to start your search is here: CancerTutor.com/Clinics/.
+    </string>
+
+    <!-- 3 of 3: Depending on the radio button clicked, this is the text that will display in FIND PROVIDER page under radio button group -->
+    <string name="radio_over_ten">
+        If you can afford to pay over $10,000 for your treatment, you are in excellent shape.  With this budget you can attend a two-week in-patient immersion treatment facility outside the USA, afford a veritable cornucopia of expensive lab tests to diagnose and monitor your progress, work with a local CAM (complimentary and alternative medicine) provider, and purchase the best of the best food for juicing and eating (e.g., organic local food).  Good places to start would be the ChrisBeatCancer.com blog and the CancerTutor.com/Clinics/ website.
+    </string>
+
+    <!-- When the user clicks the LIFESTYLE CHANGES button, this is what they will see in the body of the page-->
+    <string name="body_lifestyle_changes">
+        A change in lifestyle is the most effective and least expensive way to heal your body.  This involves nutrition, fitness, sleep, stress management, relationships with friends and family, having a positive outlook on life, etc.  There are hundreds of changes you can make, but it\'s easy to get overwhelmed.  Work with a professional if you are in the acute stage of your illness because changing your lifestyle too radically could shrink your tumor too fast and endanger your life (tumors that shrink too fast can sometimes release an inordinate amount of cancer cells that could contaminate and overwhelm your immune system and entire body).  Lifestyle changes are absolutely necessary to prevent the cancer from coming back.  Cancer recurrence rates drop significantly when a person improves their overall health with diet, exercise, outlook, etc.  Remember that everyone has cancer cells in them and they are kept in check by our immune system.  Cancer cells are almost always kept in check by a healthy and robust immune system.
+    </string>
+
+    <!-- When the user clicks the RECOVERY button, this is what they will see in the body of the page-->
+    <string name="body_recovery">
+        Recovery is the home stretch.  This is the opportunity when you can reflect on your life and take stock of your accomplishments.  The most important aspect of recovery with a non-chemo approach is that you have not poisoned your body to kill the cancer and are much better off than those who do.  By not poisoning your body and allowing your body to heal itself, you have greatly diminished your cancer recurrence chances.  Recovery can be a long road, but with the right outlook, you will heal yourself and come out stronger and be a better person for it.  To you, godspeed!
+    </string>
+
+</resources>
+

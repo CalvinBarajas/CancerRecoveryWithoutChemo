@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#FF00FC</item>
+        <item name="colorPrimary">#FF00FC</item>
+        <item name="colorAccent">#FF00FC</item>
+    </style>
+
+    <!-- This section below styles all the buttons on the HOME page (a.k.a., resources section) -->
+    <style name="ResourceButton">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">#FFB4DF</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style the "RETURN TO HOME PAGE" button located at the top of each sub-page -->
+    <style name="HomeButton">
+        <item name="android:background">#FFB4DF</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style the Headers in each sub-page section (e.g., INTRODUCTION, WHY ME?, FIND PROVIDER, etc. -->
+    <style name="SubHeadings">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <!-- Style the Body Text in each sub-level/sub-page -->
+    <style name="SubLevelBodyText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <!-- the following line was added because text was touching bottom of viewport -->
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+</resources>
