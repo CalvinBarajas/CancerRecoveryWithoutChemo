@@ -1,0 +1,40 @@
+==========================
+INSTALLATION INSTRUCTIONS
+==========================
+
+------------------------------------------------------
+
+DEVELOPMENT ENVIRONMENT
+
+Device: Nexus 4
+Mobile OS: Android 5.1.1
+Desktop OS: Windows 10.1511
+Java SE Runtime: 1.8.0_72-b15
+Android Studio v1.5.1
+
+------------------------------------------------------
+
+ROOT FILES
+
+.gitignore
+.gradle
+.idea
+app
+build
+build.gradle
+dirDump.txt
+gradle
+gradle.properties
+gradlew
+gradlew.bat
+JustJava.iml
+local.properties
+settings.gradle
+
+------------------------------------------------------
+
+COPYRIGHT
+
+2016 © Calvin Barajas 
+
+------------------------------------------------------
